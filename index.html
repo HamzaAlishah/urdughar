@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="description" content="Explore the beauty of Urdu language and culture at UrduGhar.com. Discover classical poetry, modern literature, learn Urdu online, and connect with a global community of Urdu enthusiasts.">
+      <meta name="theme-color" content="#ffffff">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="robots" content="">
+
+      <!-- Alpine.js - Load first -->
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+      
+      <!-- Font Links -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+      <title>UrduGhar.com - A Home for Urdu Lovers | Poetry, Literature & Culture</title>
+      <!-- SEO Description -->
+      <meta name="description" content="Explore the beauty of Urdu language and culture at UrduGhar.com. Discover classical poetry, modern literature, learn Urdu online, and connect with a global community of Urdu enthusiasts.">
+
+      <!-- Performance optimization: Preload critical resources -->
+      <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+      
+      <!-- Core CSS and Scripts -->
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      
+      <!-- Project-specific styles -->
+      <style>
+        /* Base styles */
+        :root {
+          --primary-color: #1a4d2e;
+          --secondary-color: #d4af37;
+          --accent-color: ;
+        }
+
+        /* Strict no-scrollbar rules */
+        * {
+          -ms-overflow-style: none !important;  /* IE and Edge */
+          scrollbar-width: none !important;     /* Firefox */
+        }
+        *::-webkit-scrollbar {
+          display: none !important;             /* Chrome, Safari and Opera */
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+          font-family: Alata, Inter, system-ui, sans-serif;
+        }
+        body {
+          font-family: Inter, Inter, system-ui, sans-serif;
+        }
+
+        /* Interactive elements */
+        .interactive-element {
+          transition: all 0.3s ease;
+        }
+        .interactive-element:hover {
+          transform: translateY(-2px);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+          width: 8px;
+          height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #888;
+          border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background: #555;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        .fade-in {
+          animation: fadeIn 0.5s ease-in-out;
+        }
+      </style>
+
+      <!-- Dynamic Meta Tags -->
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="robots" content="">
+      <meta property="og:title" content="">
+      <meta property="og:description" content="">
+      <meta property="og:image" content="">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="en_US">
+      <meta property="og:site_name" content="UrduGhar.com">
+      
+      <!-- Favicon -->
+      <link rel="icon" type="image/x-icon" href="https://example.com/urdghar-favicon.png">
+
+      <!-- Header Scripts -->
+      <script id="header-scripts">
+        // This script tag will be replaced with actual scripts.head content
+        if (window.scripts && window.scripts.head) {
+          document.getElementById('header-scripts').outerHTML = window.scripts.head;
+        }
+      </script>
+
+      <!-- Project Configuration -->
+      <script>
+        window.projectConfig = {
+          name: 'UrduGhar.com',
+          type: '',
+          settings: {
+            colors: {
+              primary: '#1a4d2e',
+              secondary: '#d4af37',
+              accent: ''
+            },
+            fonts: {
+              primary: 'Alata',
+              secondary: 'Inter'
+            }
+          }
+        };
+      </script>
+   <style>
+        [data-section-id] {
+          display: none;
+        }
+        [data-section-id]:first-child {
+          display: block;
+        }
+      </style>
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+   <body class="antialiased text-gray-900 bg-white">
+      <!-- Skip to main content link for accessibility -->
+      <a href="#main-content" 
+         class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+         Skip to main content
+      </a>
+
+      <!-- Content will be injected here by the build process -->
+      <mountpoint><div id="RolloutPageContent"><nav id="header" class="bg-white border-b border-gray-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="flex items-center">
+        <img src="https://urdughar.com/wp-content/uploads/2024/10/urdughar-logo.webp" alt="UrduGhar" class="h-8 w-auto">
+      </div>
+      
+      <div class="hidden md:flex space-x-8">
+        <a href="#hero" class="text-gray-700 hover:text-green-800 px-3 py-2 text-sm font-medium">Home</a>
+        <a href="#about" class="text-gray-700 hover:text-green-800 px-3 py-2 text-sm font-medium">About</a>
+        <a href="#literature" class="text-gray-700 hover:text-green-800 px-3 py-2 text-sm font-medium">Literature</a>
+        <a href="#learn" class="text-gray-700 hover:text-green-800 px-3 py-2 text-sm font-medium">Learn Urdu</a>
+        <a href="#blog" class="text-gray-700 hover:text-green-800 px-3 py-2 text-sm font-medium">Blog</a>
+        <a href="#dictionary" class="text-gray-700 hover:text-green-800 px-3 py-2 text-sm font-medium">Dictionary</a>
+        <a href="#gallery" class="text-gray-700 hover:text-green-800 px-3 py-2 text-sm font-medium">Gallery</a>
+        <a href="#contact" class="text-gray-700 hover:text-green-800 px-3 py-2 text-sm font-medium">Contact</a>
+      </div>
+      
+      <div class="md:hidden">
+        <button id="mobile-menu-btn" class="text-gray-700 hover:text-green-800 p-2">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-200">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+      <a href="#hero" class="text-gray-700 hover:text-green-800 block px-3 py-2 text-base font-medium">Home</a>
+      <a href="#about" class="text-gray-700 hover:text-green-800 block px-3 py-2 text-base font-medium">About</a>
+      <a href="#literature" class="text-gray-700 hover:text-green-800 block px-3 py-2 text-base font-medium">Literature</a>
+      <a href="#learn" class="text-gray-700 hover:text-green-800 block px-3 py-2 text-base font-medium">Learn Urdu</a>
+      <a href="#blog" class="text-gray-700 hover:text-green-800 block px-3 py-2 text-base font-medium">Blog</a>
+      <a href="#dictionary" class="text-gray-700 hover:text-green-800 block px-3 py-2 text-base font-medium">Dictionary</a>
+      <a href="#gallery" class="text-gray-700 hover:text-green-800 block px-3 py-2 text-base font-medium">Gallery</a>
+      <a href="#contact" class="text-gray-700 hover:text-green-800 block px-3 py-2 text-base font-medium">Contact</a>
+    </div>
+  </div>
+</nav>
+<section id="hero" class="bg-gradient-to-br from-green-900 via-green-800 to-emerald-900 text-white relative overflow-hidden">
+  <div class="absolute inset-0 opacity-10">
+    <img src="https://urdughar.com/wp-content/uploads/2025/01/CM-Punjab-Free-Solar-Panel-Scheme-390x220.png.webp" alt="Solar panels background" class="w-full h-full object-cover">
+  </div>
+  
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="text-center lg:text-left">
+        <div class="mb-6">
+          <img src="https://urdughar.com/wp-content/uploads/2024/10/urdughar-logo.webp" alt="UrduGhar" class="h-16 w-auto mx-auto lg:mx-0 mb-4">
+        </div>
+        
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          <span class="block">"زبانِ اردو ہی</span>
+          <span class="block text-yellow-400">ہماری شناخت ہے"</span>
+        </h1>
+        
+        <p class="text-lg md:text-xl text-green-100 mb-8 max-w-2xl">
+          Urdu Ghar – A Home for Urdu Lovers. Discover the beauty of Urdu language, literature, and culture in one place.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <button class="bg-yellow-500 hover:bg-yellow-400 text-green-900 font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+            Read Poetry
+          </button>
+          <button class="border-2 border-white hover:bg-white hover:text-green-900 font-bold py-3 px-8 rounded-lg transition duration-300">
+            Learn Urdu
+          </button>
+        </div>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-4">
+        <div class="space-y-4">
+          <img src="https://urdughar.com/wp-content/uploads/2025/03/What-is-Khasra-Number-390x220.png.webp" alt="Urdu Documents" class="w-full h-32 object-cover rounded-lg opacity-80">
+          <img src="https://urdughar.com/wp-content/uploads/2025/03/What-is-Jamabandi-220x150.png.webp" alt="Urdu Literature" class="w-full h-32 object-cover rounded-lg opacity-80">
+        </div>
+        <div class="space-y-4">
+          <img src="https://urdughar.com/wp-content/uploads/2025/03/Pedigree-land-ownership-record-and-details-220x150.png.webp" alt="Urdu Calligraphy" class="w-full h-32 object-cover rounded-lg opacity-80">
+          <img src="https://urdughar.com/wp-content/uploads/2025/03/Girdwari-%E2%80%93-The-process-of-measuring-and-recording-land-220x150.png.webp" alt="Urdu Heritage" class="w-full h-32 object-cover rounded-lg opacity-80">
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-16 flex justify-center items-center space-x-8 text-green-200">
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">📚</span>
+        <span>1000+ Poems</span>
+      </div>
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">✍️</span>
+        <span>500+ Stories</span>
+      </div>
+      <div class="flex items-center space-x-2">
+        <span class="text-2xl">🌟</span>
+        <span>10K+ Learners</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="py-20 bg-gradient-to-b from-white to-green-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">About Us</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Preserving and promoting the beauty of Urdu language and literature for generations to come.</p>
+    </div>
+    
+    <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+      <div>
+        <h3 class="text-3xl font-bold text-green-800 mb-6">Our Mission</h3>
+        <p class="text-gray-700 mb-6 leading-relaxed">  <a href="https://urdughar.com">UrduGhar</a> is dedicated to celebrating the rich heritage of Urdu language, literature, and culture. We believe that language is the soul of a civilization, and Urdu carries centuries of poetic wisdom, cultural depth, and artistic expression.</p>
+        
+        <div class="grid grid-cols-2 gap-6 mb-8">
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            <h4 class="text-green-800 font-bold text-xl mb-2">10K+</h4>
+            <p class="text-gray-600">Active Learners</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            <h4 class="text-green-800 font-bold text-xl mb-2">500+</h4>
+            <p class="text-gray-600">Literary Works</p>
+          </div>
+        </div>
+        
+        <div class="space-y-4">
+          <div class="flex items-start space-x-3">
+            <span class="text-green-600 text-xl">✓</span>
+            <p class="text-gray-700">Authentic Urdu content curated by language experts</p>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-green-600 text-xl">✓</span>
+            <p class="text-gray-700">Interactive learning tools for all skill levels</p>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-green-600 text-xl">✓</span>
+            <p class="text-gray-700">Cultural heritage preservation through digital media</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="relative">
+        <img src="https://urdughar.com/wp-content/uploads/2025/04/Mojza-Mola-Mushkil-Kusha-in-urdu-390x220.png.webp" alt="Urdu Literary Heritage" class="w-full rounded-lg shadow-lg mb-6">
+        
+        <div class="grid grid-cols-2 gap-4">
+          <img src="https://urdughar.com/wp-content/uploads/2025/02/Essay-On-Seerat-Un-Nabi-In-Urdu-220x150.png.webp" alt="Seerat Essay" class="w-full h-32 object-cover rounded-lg">
+          <img src="https://urdughar.com/wp-content/uploads/2025/02/Meri-Pasandeeda-Shakhsiyat-Essay-in-urdu-220x150.png.webp" alt="Personality Essay" class="w-full h-32 object-cover rounded-lg">
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-gradient-to-r from-green-100 to-yellow-50 rounded-2xl p-8 md:p-12">
+      <div class="text-center">
+        <h3 class="text-2xl md:text-3xl font-bold text-green-900 mb-4">Join Our Community</h3>
+        <p class="text-gray-700 mb-6 max-w-2xl mx-auto">Be part of a growing community of Urdu enthusiasts, learners, and cultural ambassadors. Together, we're keeping the flame of Urdu literature alive.</p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-green-800 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+            Start Learning
+          </button>
+          <button class="border-2 border-green-800 text-green-800 hover:bg-green-800 hover:text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+            Explore Literature
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="literature" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Urdu Literature</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Immerse yourself in the timeless beauty of Urdu poetry, stories, and classical literature</p>
+    </div>
+    
+    <div class="grid lg:grid-cols-3 gap-8 mb-16">
+      <div class="bg-gradient-to-br from-green-50 to-yellow-50 rounded-2xl p-8 shadow-lg border border-green-100">
+        <img src="https://urdughar.com/wp-content/uploads/2025/02/Efa-e-Ahad-Story-in-Urdu-390x220.png.webp" alt="Urdu Poetry Collection" class="w-full h-48 object-cover rounded-lg mb-6">
+        <h3 class="text-2xl font-bold text-green-800 mb-4">Poetry Collection</h3>
+        <p class="text-gray-700 mb-4">Explore classical and contemporary Urdu poetry from legendary poets including Ghalib, Faiz, and many more.</p>
+        <div class="space-y-2 text-sm text-gray-600">
+          <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full">500+ Poems</span>
+          <span class="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">Audio Recitations</span>
+        </div>
+      </div>
+      
+      <div class="bg-gradient-to-br from-green-50 to-yellow-50 rounded-2xl p-8 shadow-lg border border-green-100">
+        <img src="https://urdughar.com/wp-content/uploads/2025/02/Saanch-ko-Aanch-Nahin-Story-in-Urdu-220x150.png.webp" alt="Short Stories" class="w-full h-48 object-cover rounded-lg mb-6">
+        <h3 class="text-2xl font-bold text-green-800 mb-4">Short Stories</h3>
+        <p class="text-gray-700 mb-4">Discover captivating short stories that reflect life's beauty, challenges, and wisdom through Urdu literature.</p>
+        <div class="space-y-2 text-sm text-gray-600">
+          <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full">300+ Stories</span>
+          <span class="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">Daily Updates</span>
+        </div>
+      </div>
+      
+      <div class="bg-gradient-to-br from-green-50 to-yellow-50 rounded-2xl p-8 shadow-lg border border-green-100">
+        <img src="https://urdughar.com/wp-content/uploads/2025/02/Angoor-khatte-hain-story-in-Urdu-220x150.png.webp" alt="Classical Novels" class="w-full h-48 object-cover rounded-lg mb-6">
+        <h3 class="text-2xl font-bold text-green-800 mb-4">Classical Novels</h3>
+        <p class="text-gray-700 mb-4">Dive into timeless Urdu novels and epics that have shaped literature and culture across generations.</p>
+        <div class="space-y-2 text-sm text-gray-600">
+          <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full">50+ Novels</span>
+          <span class="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">Complete Series</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid md:grid-cols-2 gap-12 items-center mt-12">
+      <div>
+        <h3 class="text-3xl font-bold text-green-800 mb-6">Featured Works</h3>
+        
+        <div class="space-y-6">
+          <div class="flex items-start space-x-4">
+            <img src="https://urdughar.com/wp-content/uploads/2025/02/Jhoot-ki-Saza-story-in-Urdu-220x150.png.webp" alt="Story Collection" class="w-20 h-14 object-cover rounded">
+            <div>
+              <h4 class="font-bold text-gray-800">جدید کہانیاں</h4>
+              <p class="text-sm text-gray-600">Contemporary stories reflecting modern life through Urdu lens</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <img src="https://urdughar.com/wp-content/uploads/2025/02/Jhoot-Ka-Anjam-Story-in-Urdu-220x150.png.webp" alt="Moral Stories" class="w-20 h-14 object-cover rounded">
+            <div>
+              <h4 class="font-bold text-gray-800">سبق آموز کہانیاں</h4>
+              <p class="text-sm text-gray-600">Moral stories that teach valuable life lessons</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <img src="https://urdughar.com/wp-content/uploads/2024/10/pakistan-historic-test-win-390x220.webp" alt="Sports Literature" class="w-20 h-14 object-cover rounded">
+            <div>
+              <h4 class="font-bold text-gray-800">کھیل پر مضامین</h4>
+              <p class="text-sm text-gray-600">Sports commentary and analysis in beautiful Urdu prose</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-green-50 rounded-2xl p-8">
+        <h3 class="text-2xl font-bold text-green-800 mb-6">Browse by Category</h3>
+        
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-white p-4 rounded-lg text-center">
+            <span class="text-2xl mb-2 block">📖</span>
+            <h4 class="font-bold text-green-800">Poetry</h4>
+            <p class="text-sm text-gray-600">500+ poems</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg text-center">
+            <span class="text-2xl mb-2 block">📚</span>
+            <h4 class="font-bold text-green-800">Stories</h4>
+            <p class="text-sm text-gray-600">300+ stories</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg text-center">
+            <span class="text-2xl mb-2 block">🎭</span>
+            <h4 class="font-bold text-green-800">Novels</h4>
+            <p class="text-sm text-gray-600">50+ novels</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg text-center">
+            <span class="text-2xl mb-2 block">✍️</span>
+            <h4 class="font-bold text-green-800">Articles</h4>
+            <p class="text-sm text-gray-600">1000+ articles</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-16 text-center">
+      <div class="bg-gradient-to-r from-green-800 to-yellow-600 rounded-2xl p-8 md:p-12 text-white">
+        <h3 class="text-3xl font-bold mb-4">Start Your Literary Journey</h3>
+        <p class="text-lg mb-6 opacity-90 max-w-2xl mx-auto">Discover the magic of Urdu literature. From classical poetry to contemporary stories, immerse yourself in the rich world of Urdu.</p>
+        <button class="bg-white text-green-800 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300">
+          Explore All Works
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="learn" class="py-20 bg-gradient-to-b from-yellow-50 to-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Learn Urdu</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Master Urdu language with interactive lessons, grammar guides, and cultural insights</p>
+    </div>
+    
+    <div class="grid lg:grid-cols-3 gap-8 mb-16">
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+        <img src="https://urdughar.com/wp-content/uploads/2025/03/Singular-Plural-in-Urdu-Urdu-Grammar-390x220.png.webp" alt="Urdu Grammar" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-bold text-green-800 mb-4">Grammar Mastery</h3>
+          <p class="text-gray-700 mb-4">Complete grammar lessons from basic to advanced levels with interactive exercises</p>
+          <ul class="text-sm text-gray-600 space-y-2 mb-4">
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> Parts of Speech</li>
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> Sentence Structure</li>
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> Tenses & Verbs</li>
+          </ul>
+          <button class="w-full bg-green-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Start Learning</button>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+        <img src="https://urdughar.com/wp-content/uploads/2025/02/Isam-Nakra-ki-Iqsam-aur-Tareef-in-Urdu-220x150.png.webp" alt="Urdu Vocabulary" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-bold text-green-800 mb-4">Vocabulary Builder</h3>
+          <p class="text-gray-700 mb-4">Expand your word bank with themed lessons and daily practice sessions</p>
+          <ul class="text-sm text-gray-600 space-y-2 mb-4">
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> 5000+ Words</li>
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> Daily Lessons</li>
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> Flashcards</li>
+          </ul>
+          <button class="w-full bg-green-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Build Vocabulary</button>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+        <img src="https://urdughar.com/wp-content/uploads/2025/02/Rodad-Nawees-ki-iqsam-aur-tareef-in-urdu-220x150.png.webp" alt="Urdu Writing" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-bold text-green-800 mb-4">Writing Skills</h3>
+          <p class="text-gray-700 mb-4">Learn Urdu calligraphy and improve your writing with step-by-step guides</p>
+          <ul class="text-sm text-gray-600 space-y-2 mb-4">
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> Calligraphy</li>
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> Letter Writing</li>
+            <li class="flex items-center"><span class="text-green-600 mr-2">✓</span> Essay Writing</li>
+          </ul>
+          <button class="w-full bg-green-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Practice Writing</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+      <div>
+        <h3 class="text-3xl font-bold text-green-800 mb-6">Interactive Learning Experience</h3>
+        <div class="space-y-6">
+          <div class="flex items-start space-x-4">
+            <span class="text-3xl">🎧</span>
+            <div>
+              <h4 class="font-bold text-gray-800 mb-1">Audio Lessons</h4>
+              <p class="text-gray-600">Listen to native speakers and practice pronunciation with interactive audio exercises</p>
+            </div>
+          </div>
+          <div class="flex items-start space-x-4">
+            <span class="text-3xl">🎮</span>
+            <div>
+              <h4 class="font-bold text-gray-800 mb-1">Fun Games</h4>
+              <p class="text-gray-600">Learn through engaging games and quizzes that make learning enjoyable</p>
+            </div>
+          </div>
+          <div class="flex items-start space-x-4">
+            <span class="text-3xl">📱</span>
+            <div>
+              <h4 class="font-bold text-gray-800 mb-1">Mobile Friendly</h4>
+              <p class="text-gray-600">Learn anywhere, anytime with our responsive design and offline access</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-2xl p-8 shadow-lg">
+        <h4 class="text-2xl font-bold text-green-800 mb-6 text-center">Start Your Journey</h4>
+        
+        <div class="space-y-4">
+          <div class="bg-green-50 p-4 rounded-lg flex justify-between items-center">
+            <span class="font-medium text-green-800">Beginner Level</span>
+            <span class="text-green-600">30 Lessons</span>
+          </div>
+          <div class="bg-yellow-50 p-4 rounded-lg flex justify-between items-center">
+            <span class="font-medium text-green-800">Intermediate Level</span>
+            <span class="text-green-600">45 Lessons</span>
+          </div>
+          <div class="bg-green-100 p-4 rounded-lg flex justify-between items-center">
+            <span class="font-bold text-green-800">Advanced Level</span>
+            <span class="text-green-800">60 Lessons</span>
+          </div>
+        </div>
+        
+        <button class="w-full bg-gradient-to-r from-green-800 to-yellow-600 text-white font-bold py-3 px-6 rounded-lg mt-6 hover:from-green-700 hover:to-yellow-500 transition duration-300">
+          Begin Learning
+        </button>
+      </div>
+    </div>
+    
+    <div class="bg-gradient-to-r from-green-800 to-yellow-600 rounded-2xl p-8 md:p-12 text-white text-center">
+      <h3 class="text-3xl font-bold mb-4">Free Resources</h3>
+      <p class="text-lg mb-6 opacity-90 max-w-2xl mx-auto">Access our complete library of learning materials including PDFs, worksheets, and practice exercises</p>
+      
+      <div class="grid md:grid-cols-3 gap-6 mb-8">
+        <div class="text-center">
+          <img src="https://urdughar.com/wp-content/uploads/2025/03/urdu-ginti-220x150.png.webp" alt="Urdu Numbers" class="w-full h-24 object-cover rounded-lg mb-3">
+          <h4 class="font-bold">اردو گنتی</h4>
+          <p class="text-sm opacity-90">Learn counting in Urdu</p>
+        </div>
+        <div class="text-center">
+          <img src="https://urdughar.com/wp-content/uploads/2025/03/How-to-write-an-invitation-220x150.png.webp" alt="Invitation Writing" class="w-full h-24 object-cover rounded-lg mb-3">
+          <h4 class="font-bold">دعوت نامہ</h4>
+          <p class="text-sm opacity-90">Formal invitation writing</p>
+        </div>
+        <div class="text-center">
+          <img src="https://urdughar.com/wp-content/uploads/2025/01/Application-for-remission-of-penalty-220x150.png.webp" alt="Applications" class="w-full h-24 object-cover rounded-lg mb-3">
+          <h4 class="font-bold">درخواستیں</h4>
+          <p class="text-sm opacity-90">Application writing guides</p>
+        </div>
+      </div>
+      
+      <button class="bg-white text-green-800 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300">
+        Download Resources
+      </button>
+    </div>
+  </div>
+</section>
+<section id="blog" class="py-20 bg-gradient-to-b from-green-50 to-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Blog</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Latest insights on Urdu culture, literature, writers, and cultural events</p>
+    </div>
+    
+    <div class="grid lg:grid-cols-2 gap-8 mb-12">
+      <article class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://urdughar.com/wp-content/uploads/2025/02/Essay-On-Seerat-Un-Nabi-In-Urdu-220x150.png.webp" alt="Seerat Essay" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <div class="flex items-center text-sm text-gray-600 mb-3">
+            <span>اردو ثقافت</span>
+            <span class="mx-2">•</span>
+            <span>3 days ago</span>
+          </div>
+          <h3 class="text-xl font-bold text-green-800 mb-3">سیرت النبی پر مضمون - حضرت محمد ﷺ کی زندگی کا کامل نمونہ</h3>
+          <p class="text-gray-700 mb-4">دنیا کی سب سے بڑی شخصیت اور سب سے بڑی قربانی کی کہانی اردو زبان میں۔</p>
+          <div class="flex justify-between items-center">
+            <span class="text-sm text-gray-600">15 min read</span>
+            <button class="text-green-600 font-medium">Read More →</button>
+          </div>
+        </div>
+      </article>
+      
+      <article class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="https://urdughar.com/wp-content/uploads/2025/02/Meri-Pasandeeda-Shakhsiyat-Essay-in-urdu-220x150.png.webp" alt="Personality Essay" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <div class="flex items-center text-sm text-gray-600 mb-3">
+            <span>اردو ادب</span>
+            <span class="mx-2">•</span>
+            <span>1 week ago</span>
+          </div>
+          <h3 class="text-xl font-bold text-green-800 mb-3">میری پسندیدہ شخصیت پر مضمون - حضرت محمد ﷺ</h3>
+          <p class="text-gray-700 mb-4">ایک عظیم شخصیت پر مکمل مضمون جو ہماری زندگی کی رہنمائی کرتا ہے۔</p>
+          <div class="flex justify-between items-center">
+            <span class="text-sm text-gray-600">12 min read</span>
+            <button class="text-green-600 font-medium">Read More →</button>
+          </div>
+        </div>
+      </article>
+    </div>
+    
+    <div class="grid lg:grid-cols-3 gap-8">
+      <article class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="https://urdughar.com/wp-content/uploads/2023/11/essay-on-muhammad-ali-jinnah-220x150.png.webp" alt="Quaid Essay" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="font-bold text-green-800 mb-2">قائد اعظم پر مضمون</h4>
+          <p class="text-sm text-gray-600 mb-3">تحریک پاکستان کے عظیم قائد پر مکمل مضمون</p>
+          <div class="text-xs text-gray-500">
+            <span>اردو تاریخ</span>
+            <span class="ml-4">5 min read</span>
+          </div>
+        </div>
+      </article>
+      
+      <article class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="https://urdughar.com/wp-content/uploads/2024/10/pakistan-historic-test-win-390x220.webp" alt="Sports Article" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="font-bold text-green-800 mb-2">پاکستان کی تاریخی جیت</h4>
+          <p class="text-sm text-gray-600 mb-3">انگلینڈ پر شاندار فتح اور نئے ریکارڈ</p>
+          <div class="text-xs text-gray-500">
+            <span>کھیل</span>
+            <span class="ml-4">8 min read</span>
+          </div>
+        </div>
+      </article>
+      
+      <article class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="https://urdughar.com/wp-content/uploads/2025/03/urdu-ginti-220x150.png.webp" alt="Urdu Numbers" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="font-bold text-green-800 mb-2">اردو گنتی کی مکمل رہنمائی</h4>
+          <p class="text-sm text-gray-600 mb-3">اردو میں اعداد کی مکمل فہرست اور استعمال</p>
+          <div class="text-xs text-gray-500">
+            <span>تعلیم</span>
+            <span class="ml-4">3 min read</span>
+          </div>
+        </div>
+      </article>
+    </div>
+    
+    <div class="mt-12 text-center">
+      <div class="bg-gradient-to-r from-green-800 to-yellow-600 rounded-2xl p-8 md:p-12 text-white">
+        <h3 class="text-2xl font-bold mb-4">Stay Updated</h3>
+        <p class="text-lg mb-6 opacity-90 max-w-2xl mx-auto">Get the latest articles and cultural insights delivered to your inbox</p>
+        
+        <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+          <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg text-gray-800">
+          <button type="submit" class="bg-white text-green-800 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition duration-300">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="dictionary" class="py-20 bg-gradient-to-b from-white to-green-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Dictionary & Tools</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Complete Urdu-English dictionary, keyboard tools, and transliteration guides</p>
+    </div>
+    
+    <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+      <div>
+        <h3 class="text-3xl font-bold text-green-800 mb-6">Urdu-English Dictionary</h3>
+        <div class="bg-white rounded-2xl shadow-lg p-8">
+          <div class="relative mb-6">
+            <input type="text" placeholder="Search word in Urdu or English..." class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            <button class="absolute right-3 top-1/2 transform -translate-y-1/2 text-green-600">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+            </button>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-4 mb-6">
+            <div class="bg-green-50 p-4 rounded-lg text-center">
+              <h4 class="font-bold text-green-800 text-2xl">50,000+</h4>
+              <p class="text-sm text-gray-600">Words & Phrases</p>
+            </div>
+            <div class="bg-yellow-50 p-4 rounded-lg text-center">
+              <h4 class="font-bold text-green-800 text-2xl">Audio</h4>
+              <p class="text-sm text-gray-600">Pronunciation</p>
+            </div>
+          </div>
+          
+          <div class="space-y-3">
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="font-bold text-green-800">محبت</span>
+              <span class="text-gray-600">Love, Affection</span>
+            </div>
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="font-bold text-green-800">ادب</span>
+              <span class="text-gray-600">Literature, Respect</span>
+            </div>
+            <div class="flex justify-between items-center border-b pb-2">
+              <span class="font-bold text-green-800">ثقافت</span>
+              <span class="text-gray-600">Culture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div>
+        <h3 class="text-3xl font-bold text-green-800 mb-6">Essential Tools</h3>
+        
+        <div class="space-y-6">
+          <div class="bg-white rounded-xl shadow-md p-6">
+            <img src="https://urdughar.com/wp-content/uploads/2025/03/What-is-Khasra-Number-390x220.png.webp" alt="Land Records" class="w-full h-32 object-cover rounded-lg mb-4">
+            <h4 class="text-xl font-bold text-green-800 mb-2">اردو کی بورڈ</h4>
+            <p class="text-gray-600 mb-3">آن لائن اردو کی بورڈ اور ٹائپنگ ٹول</p>
+            <button class="text-green-600 font-medium">Try Now →</button>
+          </div>
+          
+          <div class="bg-white rounded-xl shadow-md p-6">
+            <img src="https://urdughar.com/wp-content/uploads/2025/03/What-is-Jamabandi-220x150.png.webp" alt="Land Records" class="w-full h-32 object-cover rounded-lg mb-4">
+            <h4 class="text-xl font-bold text-green-800 mb-2">یونیکوڈ کنورٹر</h4>
+            <p class="text-gray-600 mb-3">ان پیج سے یونیکوڈ اور یونیکوڈ سے ان پیج کنورشن</p>
+            <button class="text-green-600 font-medium">Convert Now →</button>
+          </div>
+          
+          <div class="bg-white rounded-xl shadow-md p-6">
+            <img src="https://urdughar.com/wp-content/uploads/2025/03/Pedigree-land-ownership-record-and-details-220x150.png.webp" alt="Land Records" class="w-full h-32 object-cover rounded-lg mb-4">
+            <h4 class="text-xl font-bold text-green-800 mb-2">ٹرانسلیترےشن</h4>
+            <p class="text-gray-600 mb-3">انگریزی سے اردو اور اردو سے انگریزی ٹرانسلیترےشن</p>
+            <button class="text-green-600 font-medium">Translate →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid md:grid-cols-3 gap-8 mt-12">
+      <div class="bg-gradient-to-br from-green-100 to-yellow-50 rounded-2xl p-8 text-center">
+        <div class="text-4xl mb-4">📝</div>
+        <h4 class="text-xl font-bold text-green-800 mb-3">لفظی گنتی</h4>
+        <p class="text-gray-600 mb-4">اردو میں اعداد کی لفظی شکلیں اور ان کا استعمال</p>
+        <button class="bg-green-800 text-white px-4 py-2 rounded-lg">Open Tool</button>
+      </div>
+      
+      <div class="bg-gradient-to-br from-green-100 to-yellow-50 rounded-2xl p-8 text-center">
+        <div class="text-4xl mb-4">📋</div>
+        <h4 class="text-xl font-bold text-green-800 mb-3">درخواست نویسی</h4>
+        <p class="text-gray-600 mb-4">رسمی اور غیر رسمی درخواستوں کے نمونے اور اصول</p>
+        <button class="bg-green-800 text-white px-4 py-2 rounded-lg">View Samples</button>
+      </div>
+      
+      <div class="bg-gradient-to-br from-green-100 to-yellow-50 rounded-2xl p-8 text-center">
+        <div class="text-4xl mb-4">✍️</div>
+        <h4 class="text-xl font-bold text-green-800 mb-3">خط نویسی</h4>
+        <p class="text-gray-600 mb-4">رسمی اور غیر رسمی خطوط کے فارمیٹس اور مثالیں</p>
+        <button class="bg-green-800 text-white px-4 py-2 rounded-lg">Learn Format</button>
+      </div>
+    </div>
+    
+    <div class="mt-16 bg-white rounded-2xl shadow-lg p-8 md:p-12">
+      <div class="text-center">
+        <h3 class="text-2xl font-bold text-green-800 mb-4">Download Free Tools</h3>
+        <p class="text-gray-600 mb-6 max-w-2xl mx-auto">Get access to all our dictionary tools and resources in one convenient package</p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-green-800 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-700 transition duration-300">
+            Download Dictionary
+          </button>
+          <button class="border-2 border-green-800 text-green-800 font-bold py-3 px-8 rounded-lg hover:bg-green-800 hover:text-white transition duration-300">
+            Get All Tools
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="gallery" class="py-20 bg-gradient-to-b from-yellow-50 to-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Gallery</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Explore Urdu calligraphy, cultural heritage, and artistic expressions</p>
+    </div>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+        <img src="https://urdughar.com/wp-content/uploads/2025/07/Kirdar-poetry-in-Urdu-390x220.png.webp" alt="Poetry Calligraphy" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">کردار پر شاعری</h3>
+            <p class="text-sm">Beautiful Urdu calligraphy</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+        <img src="https://urdughar.com/wp-content/uploads/2025/03/ghurbat-poetry-in-urdu-390x220.png.webp" alt="Ghurbat Poetry" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">غربت پر اشعار</h3>
+            <p class="text-sm">Social poetry artwork</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+        <img src="https://urdughar.com/wp-content/uploads/2025/03/Dard-e-Mohabbat-Shayari-in-Urdu-390x220.png.webp" alt="Love Poetry" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">درد محبت شاعری</h3>
+            <p class="text-sm">Romantic calligraphy art</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+        <img src="https://urdughar.com/wp-content/uploads/2025/04/attitude-poetry-in-Urdu-390x220.png.webp" alt="Attitude Poetry" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">Attitude Poetry</h3>
+            <p class="text-sm">Bold and confident verses</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+        <img src="https://urdughar.com/wp-content/uploads/2024/12/Aisa-Tujhe-Khaliq-Ne-Tarah-Daar-Banaya1-390x220.webp" alt="Naat Calligraphy" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">نعت شریف</h3>
+            <p class="text-sm">Religious calligraphy</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+        <img src="https://urdughar.com/wp-content/uploads/2024/12/ajab-rang-par-hai-bahare-madina-390x220.webp" alt="Madina Poetry" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300">
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">مدینہ کی شاعری</h3>
+            <p class="text-sm">Sacred verses</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid lg:grid-cols-2 gap-12 items-center mt-16">
+      <div>
+        <h3 class="text-3xl font-bold text-green-800 mb-6">Cultural Heritage</h3>
+        <p class="text-gray-700 mb-6">Discover the rich visual heritage of Urdu language through stunning calligraphy, historical manuscripts, and artistic expressions that have been preserved for centuries.</p>
+        
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-green-50 p-4 rounded-lg text-center">
+            <span class="text-3xl block mb-2">🖋️</span>
+            <h4 class="font-bold text-green-800">Calligraphy</h4>
+            <p class="text-sm text-gray-600">Traditional art</p>
+          </div>
+          <div class="bg-yellow-50 p-4 rounded-lg text-center">
+            <span class="text-3xl block mb-2">📖</span>
+            <h4 class="font-bold text-green-800">Manuscripts</h4>
+            <p class="text-sm text-gray-600">Historical texts</p>
+          </div>
+        </div>
+      </div>
+      
+      <div>
+        <img src="https://urdughar.com/wp-content/uploads/2023/09/Aye-Shahen-Shah-E-Madina-Assalat-O-Wassalam-%E2%80%93-Naat-Lyrics-In-Urdu-390x220.png.webp" alt="Madina Calligraphy" class="w-full rounded-2xl shadow-lg">
+      </div>
+    </div>
+    
+    <div class="mt-16 bg-gradient-to-r from-green-800 to-yellow-600 rounded-2xl p-8 md:p-12 text-white">
+      <div class="text-center">
+        <h3 class="text-3xl font-bold mb-4">Share Your Art</h3>
+        <p class="text-lg mb-6 opacity-90 max-w-2xl mx-auto">Submit your Urdu calligraphy and cultural artwork to be featured in our gallery</p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-white text-green-800 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300">
+            Submit Artwork
+          </button>
+          <button class="border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-green-800 transition duration-300">
+            View Full Gallery
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="py-20 bg-gradient-to-b from-white to-green-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Contact Us</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Connect with us for questions, suggestions, or collaboration opportunities</p>
+    </div>
+    
+    <div class="grid lg:grid-cols-2 gap-12 items-start">
+      <div class="bg-white rounded-2xl shadow-lg p-8">
+        <h3 class="text-2xl font-bold text-green-800 mb-6">Send us a Message</h3>
+        
+        <form class="space-y-6">
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+              <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+              <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+              <option>General Inquiry</option>
+              <option>Content Suggestion</option>
+              <option>Collaboration</option>
+              <option>Technical Support</option>
+            </select>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Tell us about your inquiry..."></textarea>
+          </div>
+          
+          <button type="submit" class="w-full bg-green-800 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300">
+            Send Message
+          </button>
+        </form>
+      </div>
+      
+      <div class="space-y-8">
+        <div class="bg-white rounded-2xl shadow-lg p-8">
+          <h3 class="text-2xl font-bold text-green-800 mb-6">Get in Touch</h3>
+          
+          <div class="space-y-6">
+            <div class="flex items-center space-x-4">
+              <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                <span class="text-green-800">📧</span>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800">Email</h4>
+                <p class="text-gray-600">info@urdughar.com</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                <span class="text-green-800">💬</span>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800">WhatsApp</h4>
+                <p class="text-gray-600">+92-XXX-XXXXXXX</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                <span class="text-green-800">📱</span>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800">Social Media</h4>
+                <p class="text-gray-600">@UrduGhar on all platforms</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-gradient-to-r from-green-800 to-yellow-600 rounded-2xl p-8 text-white">
+          <h3 class="text-xl font-bold mb-4">Quick Connect</h3>
+          <p class="text-sm opacity-90 mb-4">Reach us instantly through your preferred platform</p>
+          
+          <div class="grid grid-cols-3 gap-4">
+            <a href="https://facebook.com/urdghar" class="bg-white/20 p-3 rounded-lg text-center hover:bg-white/30 transition">
+              <span class="text-2xl">📘</span>
+              <p class="text-xs mt-1">Facebook</p>
+            </a>
+            <a href="https://instagram.com/urdghar" class="bg-white/20 p-3 rounded-lg text-center hover:bg-white/30 transition">
+              <span class="text-2xl">📷</span>
+              <p class="text-xs mt-1">Instagram</p>
+            </a>
+            <a href="https://youtube.com/urdghar" class="bg-white/20 p-3 rounded-lg text-center hover:bg-white/30 transition">
+              <span class="text-2xl">📺</span>
+              <p class="text-xs mt-1">YouTube</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl shadow-lg p-8">
+          <h3 class="text-xl font-bold text-green-800 mb-4">Business Hours</h3>
+          
+          <div class="space-y-3 text-sm">
+            <div class="flex justify-between">
+              <span class="text-gray-600">Monday - Friday</span>
+              <span class="font-medium text-gray-800">9:00 AM - 6:00 PM</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Saturday</span>
+              <span class="font-medium text-gray-800">10:00 AM - 4:00 PM</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Sunday</span>
+              <span class="font-medium text-gray-800">Closed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-16 bg-white rounded-2xl shadow-lg p-8">
+      <div class="text-center">
+        <h3 class="text-2xl font-bold text-green-800 mb-4">Newsletter</h3>
+        <p class="text-gray-600 mb-6 max-w-2xl mx-auto">Stay updated with the latest Urdu content, learning resources, and cultural insights</p>
+        
+        <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+          <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+          <button type="submit" class="bg-green-800 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300">
+            Subscribe
+          </button>
+        </form>
+        
+        <p class="text-xs text-gray-500 mt-3">We respect your privacy. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="footer" class="bg-green-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid lg:grid-cols-4 gap-8">
+      <div class="lg:col-span-2">
+        <h3 class="text-xl font-bold mb-4">UrduGhar</h3>
+        <p class="text-green-200 mb-4">اردو گھر - اردو زبان اور ادب کا آن لائن گھر۔ ہمارا مشن اردو زبان کی خوبصورتی کو دنیا بھر میں پھیلانا ہے۔</p>
+        <p class="text-sm text-green-300">Your one-stop destination for everything Urdu language, literature, and culture.</p>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+        <nav class="space-y-2">
+          <a href="#hero" class="block text-green-200 hover:text-white transition">Home</a>
+          <a href="#about" class="block text-green-200 hover:text-white transition">About Us</a>
+          <a href="#literature" class="block text-green-200 hover:text-white transition">Literature</a>
+          <a href="#learn" class="block text-green-200 hover:text-white transition">Learn Urdu</a>
+          <a href="#blog" class="block text-green-200 hover:text-white transition">Blog</a>
+          <a href="#dictionary" class="block text-green-200 hover:text-white transition">Dictionary</a>
+          <a href="#gallery" class="block text-green-200 hover:text-white transition">Gallery</a>
+          <a href="#contact" class="block text-green-200 hover:text-white transition">Contact</a>
+        </nav>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-bold mb-4">Legal & Support</h4>
+        <nav class="space-y-2">
+          <a href="#privacy" class="block text-green-200 hover:text-white transition">Privacy Policy</a>
+          <a href="#terms" class="block text-green-200 hover:text-white transition">Terms of Service</a>
+          <a href="https://facebook.com/urdghar" class="block text-green-200 hover:text-white transition">Facebook</a>
+          <a href="https://instagram.com/urdghar" class="block text-green-200 hover:text-white transition">Instagram</a>
+          <a href="https://youtube.com/urdghar" class="block text-green-200 hover:text-white transition">YouTube</a>
+        </nav>
+      </div>
+    </div>
+    
+    <div class="border-t border-green-800 mt-8 pt-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <p class="text-green-300 text-sm">&copy; 2024 UrduGhar. All rights reserved.</p>
+        <div class="flex space-x-6 mt-4 md:mt-0">
+          <span class="text-green-300 text-sm">Made with ❤️ for Urdu lovers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer></div></mountpoint>
+
+      <!-- Core functionality scripts -->
+      <script>
+        // Initialize interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+          // Add interactive behaviors
+          const interactiveElements = document.querySelectorAll('.interactive-element');
+          interactiveElements.forEach(element => {
+            element.addEventListener('mouseenter', () => {
+              element.classList.add('hover');
+            });
+            element.addEventListener('mouseleave', () => {
+              element.classList.remove('hover');
+            });
+          });
+
+          // Initialize any dynamic content
+          const dynamicContent = document.querySelectorAll('[data-dynamic]');
+          dynamicContent.forEach(content => {
+            // Add fade-in animation
+            content.classList.add('fade-in');
+          });
+        });
+
+        // Handle navigation
+        function handleNavigation(event) {
+          const link = event.currentTarget;
+          if (link.hasAttribute('data-nav')) {
+            event.preventDefault();
+            const target = link.getAttribute('data-nav');
+            document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+
+        // Initialize navigation
+        document.querySelectorAll('[data-nav]').forEach(link => {
+          link.addEventListener('click', handleNavigation);
+        });
+      </script>
+
+      <!-- Body Scripts -->
+      <script id="body-scripts">
+        // This script tag will be replaced with actual scripts.body content
+        if (window.scripts && window.scripts.body) {
+          document.getElementById('body-scripts').outerHTML = window.scripts.body;
+        }
+      </script>
+   </body>
+</html>
